@@ -1,0 +1,64 @@
+body {
+    /*font-family: 'Gothic A1', sans-serif;*/
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#nav-light {
+    background-color: #e9e8e5;
+}
+
+#contact-btn {
+    border: solid 2px black;
+}
+
+.nav-link {
+    margin-left: 5px!important;
+    margin-right: 5px !important;
+}
+
+.nav-right {
+    float: right;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('bamboo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: black;
+    padding: 200px;
+}
+
+.end-header {
+    height: 0px;
+    border: none;
+    border-top: 3px solid black;
+    width: 150px;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.bg-block {
+    background-color: #e9e8e5;
+    margin-top: 25px;
+    height: 800px;
+}
+
+.footer {
+    /*background: #81ccfb;*/
+    padding: 3em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
