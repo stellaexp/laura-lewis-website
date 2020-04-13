@@ -1,6 +1,8 @@
 body {
     /*font-family: 'Gothic A1', sans-serif;*/
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: proxima-nova, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .background {
@@ -33,6 +35,13 @@ body {
     float: right;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+}
 
 .center-jumbotron {
     position: absolute;
@@ -50,8 +59,17 @@ body {
     width: 150px;
 }
 
-.what-section {
-    height: 500px;
+.padding-text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.custom-img {
+    display: flex;
+}
+
+.img-section {
+    max-height: 500px;
 }
 
 .full-width {
